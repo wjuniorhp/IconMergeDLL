@@ -2,10 +2,10 @@ import os
 import subprocess
 import shutil
 
-# Paths to Resource Hacker executable and template .dll filefile
-RESOURCE_HACKER_PATH = r"Path\to\ResourceHacker.exe"
-TEMPLATE_DLL_FILE = r"Path\to\template.dll"
-OUTPUT_FOLDER = r"Path\to\output\folder"
+# Paths to Resource Hacker executable and template .dll file
+RESOURCE_HACKER_PATH = r"D:\OneDrive\Apps\scoop\apps\resource-hacker\current\ResourceHacker.exe"
+TEMPLATE_DLL_FILE = r"D:\OneDrive\Pictures\Icons\FolderIco\.template.dll"
+OUTPUT_FOLDER = r"D:\OneDrive\Pictures\Icons\FolderIco"
 
 def create_rc_file(icon_folder, rc_file):
     """
